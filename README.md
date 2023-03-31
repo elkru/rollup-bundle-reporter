@@ -1,1 +1,1 @@
-# bundle-reporter
+# Rollup Bundle Reporter
