@@ -60,7 +60,7 @@ function reportBundleSize(previousBundleSize, currentBundleSize) {
   }
 }
 
-export default function () {
+export function bundleReporter() {
   return {
     name: 'rollup-bundle-reporter',
     async writeBundle(options, bundle) {
