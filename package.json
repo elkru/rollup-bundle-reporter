@@ -2,18 +2,8 @@
   "name": "rollup-bundle-reporter",
   "version": "1.0.0",
   "description": "Report rollup bundle metrics.",
-  "main": "./dist/esm/index.js",
-  "types": "./dist/types/index.d.ts",
+  "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json"
-  },
-  "exports": {
-    "import": "./dist/esm/index.js",
-    "require": "./dist/cjs/index.js",
-    "default": "./dist/esm/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elkru/rollup-bundle-reporter.git"
@@ -37,7 +27,6 @@
     "colorette": "^2.0.19"
   },
   "devDependencies": {
-    "prettier": "^2.8.7",
-    "typescript": "^5.0.3"
+    "prettier": "^2.8.7"
   }
 }

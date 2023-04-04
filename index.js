@@ -53,7 +53,7 @@ function reportBundleSize(previousBundleSize, currentBundleSize) {
     const currentBundleSizeText = cyan(`${Math.round(currentBundleSize)} kB`);
     console.log(`\nBundle size: ${currentBundleSizeText}`);
   }
-  if (typeof difference === 'number') {
+  if (typeof difference === 'number' && difference !== 0) {
     const percentageText = difference > 0 ? red(`${difference}%`) : green(`${difference}%`);
     const previousBundleSizeText = cyan(`${Math.round(previousBundleSize)} kB`);
     console.log(`This is a ${percentageText} difference with the previous build of ${previousBundleSizeText}`);

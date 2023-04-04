@@ -10,16 +10,10 @@ npm install --save-dev rollup-bundle-reporter
 
 ## Usage
 
-Import CommonJS
+Import
 
 ```javascript
 import { bundleReporter } from 'rollup-bundle-reporter';
-```
-
-Import ECMAScript
-
-```javascript
-const { bundleReporter } = require('rollup-bundle-reporter');
 ```
 
 vite.config.ts (TypeScript)
