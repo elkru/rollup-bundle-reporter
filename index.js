@@ -69,7 +69,6 @@ function getPercentageDifference(oldValue, newValue) {
 
 function reportBundleSize(previousBundleSize, { bundleSize, bundleSizeGzip }) {
   const difference = getPercentageDifference(previousBundleSize, bundleSize);
-  console.log(difference, previousBundleSize, bundleSize);
   if (typeof bundleSize === 'number') {
     const currentBundleSizeText = `${cyan(formatter.format(bundleSize))} kB | gzip: ${cyan(
       formatter.format(bundleSizeGzip)
