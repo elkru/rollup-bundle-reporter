@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/elkru/rollup-bundle-reporter#readme",
   "dependencies": {
-    "colorette": "^2.0.19"
+    "colorette": "^2.0.19",
+    "gzip-size": "^7.0.0"
   },
   "devDependencies": {
     "prettier": "^2.8.7"
